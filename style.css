@@ -465,6 +465,7 @@
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  padding-top: 20px;
 }
 
 .heart .min {
@@ -513,4 +514,39 @@
   line-height: 32px; /* 160% */
   letter-spacing: 0.4px;
   text-transform: capitalize;
+}
+
+.bacimg {
+  background-image: url(./assests/women.png);
+  background-repeat: no-repeat;
+  width: 433px;
+  height: 180px;
+  flex-shrink: 0;
+  background-size: 100% 100%;
+}
+
+.bacimg h4 {
+  color: #fff;
+  font-family: "Outfit";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px; /* 130% */
+  letter-spacing: 0.4px;
+  width: 108px;
+  margin-left: 40px;
+  padding-top: 70px;
+}
+
+.bacimg p {
+  color: #fff;
+  font-family: "Outfit";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 10px;
+  line-height: 26px; /* 130% */
+  letter-spacing: 0.4px;
+  width: 163px;
+  margin-left: 40px;
 }
